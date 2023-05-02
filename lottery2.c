@@ -18,7 +18,7 @@ int main(void)
 			}
 		}
 		
-		if (j == 1) {
+		if (j == i) {
 			++i;
 		}
 	}
@@ -26,4 +26,5 @@ int main(void)
 	for (int i = 0; i < 7; ++i) {
 		printf("%d ", lottery[i]);
 	}
+	printf("\n");
 }
